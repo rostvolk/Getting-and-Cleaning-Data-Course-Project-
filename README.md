@@ -32,16 +32,25 @@ Saving clean data to: C:/project/Coursera/Getting and Cleaning Data Course Proje
 ## Process
 
 For both the test and train datasets, produce an interim dataset:
-1. Get names columns from features.txt
-2. Read data from directory /test and /train
-3. Joining this datasets
-4. Extract the mean and standard deviation features (listed in CodeBook.md, section 'Extracted Features'). This is the `values` table.
-5. Get the list of activities.
-6. Put the activity *labels* (not numbers) into the `values` table.
-7. Get the list of subjects.
-8. Put the subject IDs into the `values` table.
-9. Rejoin the entire table, keying on subject/acitivity pairs, applying the mean function to each vector of values in each subject/activity pair. This is the clean dataset.
-10. Write the clean dataset to disk.
+ 1. Get names columns from features.txt
+
+ 2. Read data from directory /test and /train
+
+ 3. Joining this datasets
+
+ 4. Extract the mean and standard deviation features (listed in CodeBook.md, section 'Extracted Features'). This is the `values` table.
+
+ 5. Get the list of activities.
+
+ 6. Put the activity *labels* (not numbers) into the `values` table.
+
+ 7. Get the list of subjects.
+
+ 8. Put the subject IDs into the `values` table.
+
+ 9. Rejoin the entire table, keying on subject/acitivity pairs, applying the mean function to each vector of values in each subject/activity pair. This is the clean dataset.
+
+ 10. Write the clean dataset to disk.
 
 ## Cleaned Data
 
